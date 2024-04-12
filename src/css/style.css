@@ -1,0 +1,68 @@
+.container {
+    margin: 0 auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #efc3c3;
+    border: 2px solid #000;
+    border-radius: 4px;
+    box-shadow:#4CAF50;
+}
+
+.Sign-in-form {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.Sign-in-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input.field {
+    margin-bottom: 10px;
+}
+
+.input.field i {
+    color: #777;
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    text-align: center;
+}
+
+.input.field input[type="text"] {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px;
+    width: calc(100% - 30px);
+    font-size: 16px;
+}
+
+.Sign-in-form input[type="submit"] {
+    width: 21%;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.container input[type="Registration"],
+.container input[type="Forget password"] {
+    width: 18%;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #008CBA;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 5px;
+    
+}
